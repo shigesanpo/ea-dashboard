@@ -1,9 +1,9 @@
 name: ea_dashboard
 description: EA Dashboard App
+publish_to: 'none'
 
-# この環境指定（environment）がないとエラーになります
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: '^3.12.0'
 
 dependencies:
   flutter:
