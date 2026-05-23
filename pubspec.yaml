@@ -1,8 +1,13 @@
+name: ea_dashboard
+description: EA Dashboard App
+
+# この環境指定（environment）がないとエラーになります
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
 dependencies:
   flutter:
     sdk: flutter
-  
-  # 以下の3行を追加してください
   http: ^1.2.0
   fl_chart: ^0.66.0
   intl: ^0.19.0
